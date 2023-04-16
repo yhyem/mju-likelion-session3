@@ -1,0 +1,15 @@
+{
+  "name": "윤혜민",
+  "birthday": "2001 . 01 . 20",
+  "age": "24살",
+  "id": "60192222",
+  "department": "컴퓨터공학과",
+  "part": "WEB",
+  "mbti": "ISFJ",
+  "hobby": ["유튜브", "TFT", "덕질"],
+  "special": [
+    { "title": "잠이와요", "content": "많이 졸려요\n퇴근 시켜주세요" },
+    { "title": "ISFJ", "content": "극강 J\n그렇다고 다 지키는건 아님 ㅋ" },
+    { "title": "9개월차 직장인", "content": "퇴근하고 싶어요\n(❁´▽`❁)" }
+  ]
+}

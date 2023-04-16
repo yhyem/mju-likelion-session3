@@ -42,7 +42,6 @@ body {
 
 h3 {
   text-align: center;
-  background-color: white;
 }
 
 .wrapSpecial {
@@ -66,7 +65,7 @@ h3 {
   overflow: hidden;
 }
 
-.specialContent h3 {
+.specialContentTitle {
   width: 300px;
   height: 300px;
   line-height: 300px;
@@ -82,4 +81,39 @@ h3 {
   height: 100%;
   position: absolute;
   padding-top: 150px;
+  white-space: pre-wrap;
+}
+
+.darkMode {
+  background-color: gray;
+  color: white;
+}
+
+.introContentDarkMode {
+  margin: 50px;
+  color: white;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: gray;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border: 3px dashed white;
+}
+
+.hobbyContentDarkMode {
+  line-height: 120px;
+  text-align: center;
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  border: 3px dashed white;
+  background-color: gray;
+}
+
+.specialContentTitleDarkMode {
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  background-color: lightgray;
 }

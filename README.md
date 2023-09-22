@@ -23,7 +23,8 @@ useState, Props 적어도 1개씩 사용
 `yarn add react-router-dom`
 
 **src/index.js**
-`import React from 'react';
+```
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -34,10 +35,12 @@ ReactDOM.render(
     <App />
   </BrowserRouter>,
   document.getElementById('root')
-);`
+);
+```
 
 **App.js**
-`import Main from "./pages/Main.js";
+```
+import Main from "./pages/Main.js";
 import About from "./pages/About.js";
 import { Route, Routes } from 'react-router-dom';
 
@@ -50,10 +53,12 @@ const App = () => {
   );
 };
 
-export default App;`
+export default App;
+```
 
 **Main.js**
-`import { Link } from 'react-router-dom';
+```
+import { Link } from 'react-router-dom';
 
 const Main = () => {
   return (
@@ -65,4 +70,5 @@ const Main = () => {
   );
 };
 
-export default Main;`
+export default Main;
+```
